@@ -1,3 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+  @apply bg-white text-slate-900 dark:bg-black dark:text-slate-100;
+}
+
+html.dark {
+  @apply bg-black text-slate-100;
+}
+
+svg {
+  stroke-width: 0.7px;
+  @apply bg-transparent stroke-slate-900;
+}
+
+.dark svg {
+  @apply bg-transparent stroke-slate-100;
+}

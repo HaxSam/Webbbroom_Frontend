@@ -1,11 +1,13 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import WindiCSS from 'vite-plugin-windicss'
+import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     tsconfigPaths(),
+    WindiCSS(),
     svelte()
-  ]
+  ],
 })
