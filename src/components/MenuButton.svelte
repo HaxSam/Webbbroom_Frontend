@@ -14,13 +14,13 @@
 <style lang="postcss">
   button {
     background-color: var(--light);
-    @apply w-24 h-24 mx-auto p-0.5 rounded-2xl shadow-slate-300;
+    @apply w-24 h-24 mx-auto p-0.5 rounded-2xl shadow-black/25;
     box-shadow: 4px 4px 7px -1px var(--tw-shadow-color);
   }
 
   :global(.dark) button {
     background-color: var(--dark);
-    @apply shadow-dark-700;
+    @apply shadow-white/13;
   }
 </style>
 
