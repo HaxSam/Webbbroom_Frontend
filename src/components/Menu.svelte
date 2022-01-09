@@ -9,12 +9,16 @@
     overflow-y: scroll;
   }
 
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   :global(.dark) .menu {
     @apply bg-gray-800 shadow-white/10;
   }
 
   h2 {
-    @apply text-3xl font-bold w-1/4 my-5 mx-auto text-center;
+    @apply text-3xl font-bold w-1/4 my-4 mx-auto text-center;
   }
 </style>
 

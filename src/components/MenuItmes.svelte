@@ -9,7 +9,7 @@
 
 <style lang="postcss">
   div {
-    @apply flex flex-row mx-3 mt-4 bg-slate-200 py-3 rounded-xl shadow-black/25;
+    @apply flex flex-row mx-3 mb-4 bg-slate-200 py-3 rounded-xl shadow-black/25;
     box-shadow: 2px 2px 4px -1px var(--tw-shadow-color);
   }
 
