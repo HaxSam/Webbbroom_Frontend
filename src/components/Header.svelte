@@ -15,7 +15,7 @@
     <option value="2">Küche</option>
     <option value="3">Schlafzimmer</option>
   </select>
-  <button class="absolute w-10 right-8 bg-white" on:click={toggleLightAndDarkMode}>
+  <button class="absolute w-13 right-8 bg-white" on:click={toggleLightAndDarkMode}>
     <InlineSVG src={moon} class="dark:hidden" />
     <InlineSVG src={sun} class="hidden dark:block" />
   </button>
